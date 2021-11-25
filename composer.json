@@ -38,7 +38,8 @@
         },
         "merge-plugin": {
             "include": [
-                "web/profiles/custom/demo_commerce/composer.json"
+                "web/profiles/custom/demo_commerce/composer.json",
+                "web/modules/custom/commerce_demo/composer.json"
             ]
         },
         "installer-paths": {
