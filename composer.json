@@ -16,9 +16,11 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/config_ignore": "3.x-dev@dev",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/default_content": "2.0.x-dev@dev",
         "drush/drush": "^10.6",
         "wikimedia/composer-merge-plugin": "^2.0"
     },

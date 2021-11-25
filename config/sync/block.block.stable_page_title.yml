@@ -1,0 +1,27 @@
+uuid: 1226db84-6ff9-4ddf-b24c-bee23474cbf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: 4sQo3UuHbrbLZzZUf13YP_N6Fij0jcdoy89cFXkpJCU
+id: stable_page_title
+theme: stable
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/product/*\r\n/products*\r\n"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: de747ec6-bc1c-4ecb-826a-d368d08e40a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+id: stable_breadcrumbs
+theme: stable
+region: highlighted
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/checkout\r\n/checkout/*"
+    negate: true
+    context_mapping: {  }
