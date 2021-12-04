@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: af1f9528-cca6-4034-afc6-928adcc2e31e
+  bundle: simple
+  default_langcode: en
+  depends:
+    76dab37d-5695-4630-8343-54ac11ce66e3: commerce_product
+    f96e8a97-be1b-47ec-8acc-cdf18cc586e7: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 76dab37d-5695-4630-8343-54ac11ce66e3
+  sku:
+    -
+      value: PT-GiganticFlamingo-001
+  title:
+    -
+      value: 'Gigantic Inflatable Flamingo'
+  price:
+    -
+      number: '49.990000'
+      currency_code: USD
+      formatted: $49.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: f96e8a97-be1b-47ec-8acc-cdf18cc586e7
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

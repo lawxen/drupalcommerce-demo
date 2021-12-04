@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3a08cc79-46c4-4343-927f-356eec17773c
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Chloe) Eau De Parfum - 50ml.jpg'
+  uri:
+    -
+      value: 'public://(Chloe) Eau De Parfum - 50ml.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 111033
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

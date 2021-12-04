@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1942a8ac-4782-45c5-a82e-2469a0e25087
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(NY Threads) Cocoa Fedora.jpg'
+  uri:
+    -
+      value: 'public://(NY Threads) Cocoa Fedora.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 164793
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

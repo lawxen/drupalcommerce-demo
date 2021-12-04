@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 49dab916-e03b-4f46-aea5-c2cde9fadc47
+  default_langcode: en
+default:
+  filename:
+    -
+      value: hoodie-blue-3.jpg
+  uri:
+    -
+      value: 'public://hoodie-blue-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50819
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

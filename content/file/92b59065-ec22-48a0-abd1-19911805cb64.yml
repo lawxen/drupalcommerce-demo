@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 92b59065-ec22-48a0-abd1-19911805cb64
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Paper Co.) Write Ideas Notebook.jpg'
+  uri:
+    -
+      value: 'public://(Paper Co.) Write Ideas Notebook.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 128967
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

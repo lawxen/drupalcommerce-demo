@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 076c8aa5-8ab8-4cc3-8adb-c96fd0b4abc6
+  bundle: simple
+  default_langcode: en
+  depends:
+    2fbffa25-6067-4c3e-9c66-2a9e78041aab: commerce_product
+    3b022bf4-def5-4526-8011-c894eaa868d5: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 2fbffa25-6067-4c3e-9c66-2a9e78041aab
+  sku:
+    -
+      value: HC-FuelMug-1
+  title:
+    -
+      value: 'Adventure Fuel Camping Mug'
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 3b022bf4-def5-4526-8011-c894eaa868d5
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

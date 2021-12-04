@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5908b157-8bca-49dc-a3bf-1f05cb70da0e
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Pool Toys) Classic Beach Ball.jpg'
+  uri:
+    -
+      value: 'public://(Pool Toys) Classic Beach Ball.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 137439
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

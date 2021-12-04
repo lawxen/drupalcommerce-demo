@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03b5a1f5-e52d-454a-995c-90b37ca50b10
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(GoPro) Hero Session5.jpg'
+  uri:
+    -
+      value: 'public://(GoPro) Hero Session5.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 65214
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

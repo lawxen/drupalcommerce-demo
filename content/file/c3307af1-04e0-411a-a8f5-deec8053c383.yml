@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c3307af1-04e0-411a-a8f5-deec8053c383
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Night City Print - 2.jpg'
+  uri:
+    -
+      value: 'public://Night City Print - 2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 93289
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 1cd5f291-221e-48d1-9515-d1cd581043de
+  bundle: simple
+  default_langcode: en
+  depends:
+    b1ea9c4e-ed04-476a-8e9a-68b3e880899e: commerce_product
+    9a6127b0-f3f3-4bf1-bd27-f7f2778a10f6: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: b1ea9c4e-ed04-476a-8e9a-68b3e880899e
+  sku:
+    -
+      value: MF-PinkPot-001
+  title:
+    -
+      value: 'Simple Pink Pot'
+  price:
+    -
+      number: '39.000000'
+      currency_code: USD
+      formatted: $39.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 9a6127b0-f3f3-4bf1-bd27-f7f2778a10f6
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

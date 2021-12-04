@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6cc8f0a-f7cf-4527-bc62-455e2cd5b9e8
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Happy Camper) Eat Well Travel Often Camping Cup.jpg'
+  uri:
+    -
+      value: 'public://(Happy Camper) Eat Well Travel Often Camping Cup.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 88477
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

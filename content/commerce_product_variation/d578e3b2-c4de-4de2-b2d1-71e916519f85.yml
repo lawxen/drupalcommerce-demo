@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d578e3b2-c4de-4de2-b2d1-71e916519f85
+  bundle: simple
+  default_langcode: en
+  depends:
+    607fceff-d752-4cdb-bea4-6d8814359059: commerce_product
+    2bc0adfb-d147-4178-bfb8-75e1fc4e7a37: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 607fceff-d752-4cdb-bea4-6d8814359059
+  sku:
+    -
+      value: Kodak-CP200
+  title:
+    -
+      value: 'Colorplus 200 Film'
+  price:
+    -
+      number: '10.000000'
+      currency_code: USD
+      formatted: $10.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 2bc0adfb-d147-4178-bfb8-75e1fc4e7a37
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

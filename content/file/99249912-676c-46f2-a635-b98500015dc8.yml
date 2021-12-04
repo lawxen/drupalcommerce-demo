@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 99249912-676c-46f2-a635-b98500015dc8
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(MVMT) Classic Watch White Face Brown Leather.jpg'
+  uri:
+    -
+      value: 'public://(MVMT) Classic Watch White Face Brown Leather.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 112813
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

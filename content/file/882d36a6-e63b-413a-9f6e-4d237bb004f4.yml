@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 882d36a6-e63b-413a-9f6e-4d237bb004f4
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Dior) Miss Dior Eau De Toilette - 50ml.jpg'
+  uri:
+    -
+      value: 'public://(Dior) Miss Dior Eau De Toilette - 50ml.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136137
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

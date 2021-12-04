@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 49d1459b-749a-4a09-b5ed-5af64725fe4c
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Pretty Things) Cloche Succulent Vase.jpg'
+  uri:
+    -
+      value: 'public://(Pretty Things) Cloche Succulent Vase.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 98804
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3fada410-028e-40a4-bec5-b175fc5372ac
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    1cdb9879-80aa-4534-99f3-c3a09b851edd: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Home
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 1cdb9879-80aa-4534-99f3-c3a09b851edd
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 2

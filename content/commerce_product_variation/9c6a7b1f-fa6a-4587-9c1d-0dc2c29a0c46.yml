@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 9c6a7b1f-fa6a-4587-9c1d-0dc2c29a0c46
+  bundle: simple
+  default_langcode: en
+  depends:
+    6760d9d8-071e-4216-ba8c-98e5a63cfbed: commerce_product
+    f4c6e253-eeca-4f2d-ba06-e5c7fb1347b5: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 6760d9d8-071e-4216-ba8c-98e5a63cfbed
+  sku:
+    -
+      value: HerschelSupply-MB-RedBlue
+  title:
+    -
+      value: 'Messenger Bag'
+  price:
+    -
+      number: '99.000000'
+      currency_code: USD
+      formatted: $99.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: f4c6e253-eeca-4f2d-ba06-e5c7fb1347b5
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

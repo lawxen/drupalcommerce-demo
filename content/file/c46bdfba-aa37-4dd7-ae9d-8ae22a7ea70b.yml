@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c46bdfba-aa37-4dd7-ae9d-8ae22a7ea70b
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Basics) Alarm Clock - Pink.jpg'
+  uri:
+    -
+      value: 'public://(Basics) Alarm Clock - Pink.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 129961
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

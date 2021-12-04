@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 63f03a41-8a5d-43cd-98da-57690efc131c
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Wood & Co.) Wooden Bowl - Blue.jpg'
+  uri:
+    -
+      value: 'public://(Wood & Co.) Wooden Bowl - Blue.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 113050
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

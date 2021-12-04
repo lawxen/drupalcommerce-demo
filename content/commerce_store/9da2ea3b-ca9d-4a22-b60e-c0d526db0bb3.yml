@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'US Store'
+  mail:
+    -
+      value: admin@example.com
+  default_currency:
+    -
+      target_id: USD
+  timezone:
+    -
+      value: UTC
+  address:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: SC
+      locality: Greenville
+      dependent_locality: ''
+      postal_code: '29616'
+      sorting_code: ''
+      address_line1: '12344 24th St'
+      address_line2: ''
+      organization: ''
+      given_name: ''
+      additional_name: ''
+      family_name: ''
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022
+  prices_include_tax:
+    -
+      value: false

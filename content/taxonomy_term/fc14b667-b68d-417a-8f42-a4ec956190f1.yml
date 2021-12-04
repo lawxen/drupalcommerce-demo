@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: fc14b667-b68d-417a-8f42-a4ec956190f1
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    aa046f49-a4cf-4278-840a-2f0e6646c407: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Accessories
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: aa046f49-a4cf-4278-840a-2f0e6646c407
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 3

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: b88d0ff1-52eb-44a3-8356-4f973a92c66a
+  bundle: simple
+  default_langcode: en
+  depends:
+    969c0234-aded-4a11-ac89-7b84f9aae0ba: commerce_product
+    49d1459b-749a-4a09-b5ed-5af64725fe4c: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 969c0234-aded-4a11-ac89-7b84f9aae0ba
+  sku:
+    -
+      value: PT-ClocheVase-001
+  title:
+    -
+      value: 'Cloche Succulent Vase'
+  price:
+    -
+      number: '35.990000'
+      currency_code: USD
+      formatted: $35.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 49d1459b-749a-4a09-b5ed-5af64725fe4c
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

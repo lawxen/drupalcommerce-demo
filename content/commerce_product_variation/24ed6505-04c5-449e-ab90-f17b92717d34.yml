@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 24ed6505-04c5-449e-ab90-f17b92717d34
+  bundle: simple
+  default_langcode: en
+  depends:
+    5f2fdd76-6973-4480-a468-1b363656a8fa: commerce_product
+    5b8a7fb2-5e71-4970-8c3c-4ea5dd6d3b7d: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 5f2fdd76-6973-4480-a468-1b363656a8fa
+  sku:
+    -
+      value: MoonOverMountains-24x36
+  title:
+    -
+      value: '24" x 36" Moon Over Mountains Print'
+  price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 5b8a7fb2-5e71-4970-8c3c-4ea5dd6d3b7d
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

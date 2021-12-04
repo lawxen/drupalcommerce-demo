@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: caa5a6ba-d55d-4fec-9afa-cef4e8197427
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    c3f0cb56-1b78-429d-a310-f40ae3915953: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Pool Toys'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: c3f0cb56-1b78-429d-a310-f40ae3915953
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 3

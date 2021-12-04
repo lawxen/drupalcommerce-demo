@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 8ccb12f6-5465-454c-8495-5346798f9b68
+  bundle: simple
+  default_langcode: en
+  depends:
+    611e61c2-ea66-49fe-ae23-73dea19a631c: commerce_product
+    9b85df53-69dd-4717-bae3-d62bd97be54c: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 611e61c2-ea66-49fe-ae23-73dea19a631c
+  sku:
+    -
+      value: GH-CampingMug-001
+  title:
+    -
+      value: 'The Adventure Begins Camping Mug'
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 9b85df53-69dd-4717-bae3-d62bd97be54c
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

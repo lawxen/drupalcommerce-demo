@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b85df53-69dd-4717-bae3-d62bd97be54c
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Gentlemen''s Hardware) The Adventure Begins Camping Mug.jpg'
+  uri:
+    -
+      value: 'public://(Gentlemen''s Hardware) The Adventure Begins Camping Mug.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 144511
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

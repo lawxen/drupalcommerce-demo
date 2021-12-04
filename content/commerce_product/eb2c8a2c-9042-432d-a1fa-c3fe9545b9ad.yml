@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: eb2c8a2c-9042-432d-a1fa-c3fe9545b9ad
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    e61e74ef-99cc-4ad3-b4cb-15e1cc09accf: commerce_product_variation
+    2da9f004-dee2-4b8d-9199-7ca5940aca87: taxonomy_term
+    66079146-8ff2-41a5-b4e2-cad8ebedf95b: taxonomy_term
+    44d4b889-953e-4542-be92-d026af6d62c6: taxonomy_term
+    ce786350-a6c5-44b4-8800-13da5bae619b: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Black Headphones'
+  variations:
+    -
+      entity: e61e74ef-99cc-4ad3-b4cb-15e1cc09accf
+  default_variation:
+    -
+      entity: e61e74ef-99cc-4ad3-b4cb-15e1cc09accf
+  path:
+    -
+      alias: /product/black-headphones
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 2da9f004-dee2-4b8d-9199-7ca5940aca87
+  field_product_categories:
+    -
+      entity: 66079146-8ff2-41a5-b4e2-cad8ebedf95b
+    -
+      entity: 44d4b889-953e-4542-be92-d026af6d62c6
+    -
+      entity: ce786350-a6c5-44b4-8800-13da5bae619b

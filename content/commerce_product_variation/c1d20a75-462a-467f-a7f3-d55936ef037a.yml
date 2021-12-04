@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: c1d20a75-462a-467f-a7f3-d55936ef037a
+  bundle: simple
+  default_langcode: en
+  depends:
+    1930d462-1caf-427a-9f92-ad5d036e8dfa: commerce_product
+    1942a8ac-4782-45c5-a82e-2469a0e25087: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 1930d462-1caf-427a-9f92-ad5d036e8dfa
+  sku:
+    -
+      value: NYT-CocoaFedora-001
+  title:
+    -
+      value: 'Cocoa Fedora'
+  price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 1942a8ac-4782-45c5-a82e-2469a0e25087
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

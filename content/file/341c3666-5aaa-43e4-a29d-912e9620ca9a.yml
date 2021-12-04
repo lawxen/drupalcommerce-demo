@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 341c3666-5aaa-43e4-a29d-912e9620ca9a
+  default_langcode: en
+default:
+  filename:
+    -
+      value: hoodie-blue-2.jpg
+  uri:
+    -
+      value: 'public://hoodie-blue-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 144219
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

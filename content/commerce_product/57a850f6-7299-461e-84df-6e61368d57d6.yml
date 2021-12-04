@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 57a850f6-7299-461e-84df-6e61368d57d6
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    536f87ce-cb3e-489b-910f-a01d2d0a94d6: commerce_product_variation
+    1a2e393f-230b-412b-977f-4281f2501635: taxonomy_term
+    41252968-6d82-4760-b0a5-8c2e15841f7a: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Makeup Brush Set'
+  variations:
+    -
+      entity: 536f87ce-cb3e-489b-910f-a01d2d0a94d6
+  default_variation:
+    -
+      entity: 536f87ce-cb3e-489b-910f-a01d2d0a94d6
+  path:
+    -
+      alias: /product/makeup-brush-set
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 1a2e393f-230b-412b-977f-4281f2501635
+  field_product_categories:
+    -
+      entity: 41252968-6d82-4760-b0a5-8c2e15841f7a

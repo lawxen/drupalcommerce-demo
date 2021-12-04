@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d0bcaa47-dd2e-4938-978b-e9852ed2c846
+  bundle: simple
+  default_langcode: en
+  depends:
+    93470da2-a808-4069-89ee-e01f0d5ad0b7: commerce_product
+    831d5c36-867a-40b7-a54a-ac19789f7e06: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 93470da2-a808-4069-89ee-e01f0d5ad0b7
+  sku:
+    -
+      value: Favorit-VintageTypewriter
+  title:
+    -
+      value: 'Vintage Typewriter'
+  price:
+    -
+      number: '149.990000'
+      currency_code: USD
+      formatted: $149.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 831d5c36-867a-40b7-a54a-ac19789f7e06
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

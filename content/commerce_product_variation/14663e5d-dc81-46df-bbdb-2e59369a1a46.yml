@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 14663e5d-dc81-46df-bbdb-2e59369a1a46
+  bundle: simple
+  default_langcode: en
+  depends:
+    837f55fc-2bee-4b7b-afc6-44ea47e6779c: commerce_product
+    a6cc8f0a-f7cf-4527-bc62-455e2cd5b9e8: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 837f55fc-2bee-4b7b-afc6-44ea47e6779c
+  sku:
+    -
+      value: HC-EatWellCup-1
+  title:
+    -
+      value: 'Eat Well Travel Often Camping Cup'
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: a6cc8f0a-f7cf-4527-bc62-455e2cd5b9e8
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

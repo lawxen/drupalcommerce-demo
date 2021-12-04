@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 472f6a91-caf9-43b5-af90-50c58aed3121
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Vinta) Canvas Backpack.jpg'
+  uri:
+    -
+      value: 'public://(Vinta) Canvas Backpack.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 141765
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

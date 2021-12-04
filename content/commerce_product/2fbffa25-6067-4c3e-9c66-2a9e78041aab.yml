@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 2fbffa25-6067-4c3e-9c66-2a9e78041aab
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    076c8aa5-8ab8-4cc3-8adb-c96fd0b4abc6: commerce_product_variation
+    3a3c1b74-e33b-4e55-9acc-cd81e09c8443: taxonomy_term
+    1cdb9879-80aa-4534-99f3-c3a09b851edd: taxonomy_term
+    9836e79c-08b7-4e6a-a719-c9b30c54fc29: taxonomy_term
+    3fada410-028e-40a4-bec5-b175fc5372ac: taxonomy_term
+    44e2287a-934b-484d-b342-151530af4a0d: taxonomy_term
+    aa046f49-a4cf-4278-840a-2f0e6646c407: taxonomy_term
+    fc14b667-b68d-417a-8f42-a4ec956190f1: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Adventure Fuel Camping Mug'
+  variations:
+    -
+      entity: 076c8aa5-8ab8-4cc3-8adb-c96fd0b4abc6
+  default_variation:
+    -
+      entity: 076c8aa5-8ab8-4cc3-8adb-c96fd0b4abc6
+  path:
+    -
+      alias: /product/adventure-fuel-camping-mug
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 3a3c1b74-e33b-4e55-9acc-cd81e09c8443
+  field_product_categories:
+    -
+      entity: 1cdb9879-80aa-4534-99f3-c3a09b851edd
+    -
+      entity: 9836e79c-08b7-4e6a-a719-c9b30c54fc29
+    -
+      entity: 3fada410-028e-40a4-bec5-b175fc5372ac
+    -
+      entity: 44e2287a-934b-484d-b342-151530af4a0d
+    -
+      entity: aa046f49-a4cf-4278-840a-2f0e6646c407
+    -
+      entity: fc14b667-b68d-417a-8f42-a4ec956190f1

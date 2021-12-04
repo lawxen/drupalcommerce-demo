@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 02237e91-2e5b-4680-93d2-9be1f1b4f5af
+  bundle: simple
+  default_langcode: en
+  depends:
+    9d6d6922-2b55-499b-a966-7f61f7ba79e8: commerce_product
+    9db8259e-9101-46ef-86b7-f384c714fb71: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 9d6d6922-2b55-499b-a966-7f61f7ba79e8
+  sku:
+    -
+      value: MF-TeardropVase-001
+  title:
+    -
+      value: 'Teardrop Vase'
+  price:
+    -
+      number: '49.990000'
+      currency_code: USD
+      formatted: $49.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 9db8259e-9101-46ef-86b7-f384c714fb71
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

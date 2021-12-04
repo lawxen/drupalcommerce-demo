@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 179d7805-9ebe-49ec-a314-f6f180dbc6ba
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    19bbaad9-04a8-49eb-98fc-3ff33d860150: commerce_product_variation
+    b69918d2-fec2-4822-823c-5be43405a00f: taxonomy_term
+    f61537d9-c10b-4f93-81d7-f5f29d355c1e: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Knit Hat in Green'
+  variations:
+    -
+      entity: 19bbaad9-04a8-49eb-98fc-3ff33d860150
+  default_variation:
+    -
+      entity: 19bbaad9-04a8-49eb-98fc-3ff33d860150
+  path:
+    -
+      alias: /product/knit-hat-green
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: b69918d2-fec2-4822-823c-5be43405a00f
+  field_product_categories:
+    -
+      entity: f61537d9-c10b-4f93-81d7-f5f29d355c1e

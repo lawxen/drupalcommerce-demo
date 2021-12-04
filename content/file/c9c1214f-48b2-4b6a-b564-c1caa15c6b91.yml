@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c9c1214f-48b2-4b6a-b564-c1caa15c6b91
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(JRINK) Cold Pressed Juice - green1.jpg'
+  uri:
+    -
+      value: 'public://(JRINK) Cold Pressed Juice - green1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 100750
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

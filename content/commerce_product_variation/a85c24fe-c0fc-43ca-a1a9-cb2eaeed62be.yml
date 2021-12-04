@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: a85c24fe-c0fc-43ca-a1a9-cb2eaeed62be
+  bundle: simple
+  default_langcode: en
+  depends:
+    3fef41a3-3d82-4aba-b4ac-f39773f8d9d9: commerce_product
+    8a6949ac-8c71-465a-8b87-a784c1c294f4: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 3fef41a3-3d82-4aba-b4ac-f39773f8d9d9
+  sku:
+    -
+      value: HotAirBalloon-24x36
+  title:
+    -
+      value: '24" x 36" Hot Air Balloons'
+  price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 8a6949ac-8c71-465a-8b87-a784c1c294f4
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

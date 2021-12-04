@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: b39c13b8-5d7f-42cb-90c6-303815d73c23
+  bundle: simple
+  default_langcode: en
+  depends:
+    85604280-7f09-4dfc-9bbc-4712de40d9b7: commerce_product
+    62c65d35-e6e4-479a-ab33-9473e78a675f: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 85604280-7f09-4dfc-9bbc-4712de40d9b7
+  sku:
+    -
+      value: Seagulls-36x24
+  title:
+    -
+      value: '36" x 24" Seagulls Print'
+  price:
+    -
+      number: '42.000000'
+      currency_code: USD
+      formatted: $42.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 62c65d35-e6e4-479a-ab33-9473e78a675f
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

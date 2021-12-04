@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1d80ab76-b549-4a5e-b31b-a78c2baceece
+  default_langcode: en
+default:
+  filename:
+    -
+      value: hoodie-green-1.jpg
+  uri:
+    -
+      value: 'public://hoodie-green-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106751
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9836e79c-08b7-4e6a-a719-c9b30c54fc29
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    1cdb9879-80aa-4534-99f3-c3a09b851edd: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Food & Beverage'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 1cdb9879-80aa-4534-99f3-c3a09b851edd
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 2

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: e61e74ef-99cc-4ad3-b4cb-15e1cc09accf
+  bundle: simple
+  default_langcode: en
+  depends:
+    eb2c8a2c-9042-432d-a1fa-c3fe9545b9ad: commerce_product
+    48b95d84-9baf-42d6-ae7b-aad3dbf1a1c7: file
+    3eded564-2389-4e9b-870f-40a87e79a295: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: eb2c8a2c-9042-432d-a1fa-c3fe9545b9ad
+  sku:
+    -
+      value: Level-HP-Black
+  title:
+    -
+      value: 'Black Headphones'
+  price:
+    -
+      number: '49.990000'
+      currency_code: USD
+      formatted: $49.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 48b95d84-9baf-42d6-ae7b-aad3dbf1a1c7
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+    -
+      entity: 3eded564-2389-4e9b-870f-40a87e79a295
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

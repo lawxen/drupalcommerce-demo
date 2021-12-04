@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: edc39e71-2f17-4c78-919b-a0358a4f6751
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Fawkestrooper Print -2.jpg'
+  uri:
+    -
+      value: 'public://Fawkestrooper Print -2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 154107
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

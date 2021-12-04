@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4a7992e5-15c8-492d-8d29-b03b998319e7
+  bundle: simple
+  default_langcode: en
+  depends:
+    273314ba-8d25-48a0-a0dc-e55835cc1b7e: commerce_product
+    b298a0ce-4074-42ae-a58b-8deff18981e2: file
+    c568c54c-ef04-4450-b8b4-fd8bdd463984: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 273314ba-8d25-48a0-a0dc-e55835cc1b7e
+  sku:
+    -
+      value: MF-WhiteWoodChair-001
+  title:
+    -
+      value: 'White & Wood Chair'
+  price:
+    -
+      number: '249.990000'
+      currency_code: USD
+      formatted: $249.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: b298a0ce-4074-42ae-a58b-8deff18981e2
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+    -
+      entity: c568c54c-ef04-4450-b8b4-fd8bdd463984
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

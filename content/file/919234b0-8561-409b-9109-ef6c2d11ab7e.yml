@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 919234b0-8561-409b-9109-ef6c2d11ab7e
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Polaroid) Pronto600.jpg'
+  uri:
+    -
+      value: 'public://(Polaroid) Pronto600.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 112732
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

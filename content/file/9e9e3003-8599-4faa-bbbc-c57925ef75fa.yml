@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9e9e3003-8599-4faa-bbbc-c57925ef75fa
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(NC-Inc) Makeup Brush Set.jpg'
+  uri:
+    -
+      value: 'public://(NC-Inc) Makeup Brush Set.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 118465
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

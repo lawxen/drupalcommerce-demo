@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9a6127b0-f3f3-4bf1-bd27-f7f2778a10f6
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Modern Furnishings) Simple Pot - Pink.jpg'
+  uri:
+    -
+      value: 'public://(Modern Furnishings) Simple Pot - Pink.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 88946
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

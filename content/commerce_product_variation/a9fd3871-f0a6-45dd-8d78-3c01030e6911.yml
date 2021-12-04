@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: a9fd3871-f0a6-45dd-8d78-3c01030e6911
+  bundle: clothing
+  default_langcode: en
+  depends:
+    802dfe56-8536-4287-a0fa-6bed3fd3a621: commerce_product
+    967105d8-5047-41f3-a065-e59edfcec5bb: commerce_product_attribute_value
+    6e7055b3-2b69-4d1e-91a3-a054cdcaf7ea: commerce_product_attribute_value
+    1bcad8cb-0c54-4a2f-a698-af7ffa85ac19: file
+    341c3666-5aaa-43e4-a29d-912e9620ca9a: file
+    49dab916-e03b-4f46-aea5-c2cde9fadc47: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 802dfe56-8536-4287-a0fa-6bed3fd3a621
+  sku:
+    -
+      value: DCHOODIE-BLU-LG
+  title:
+    -
+      value: 'Drupal Commerce Hoodie - Blue, Large'
+  price:
+    -
+      number: '52.000000'
+      currency_code: USD
+      formatted: $52.00
+  created:
+    -
+      value: 1637855022
+  attribute_color:
+    -
+      entity: 967105d8-5047-41f3-a065-e59edfcec5bb
+  attribute_size:
+    -
+      entity: 6e7055b3-2b69-4d1e-91a3-a054cdcaf7ea
+  field_images:
+    -
+      entity: 1bcad8cb-0c54-4a2f-a698-af7ffa85ac19
+      alt: 'Blue hoodie (front)'
+      title: ''
+      width: 1374
+      height: 1292
+    -
+      entity: 341c3666-5aaa-43e4-a29d-912e9620ca9a
+      alt: 'Blue hoodie (front - alternative)'
+      title: ''
+      width: 1454
+      height: 1367
+    -
+      entity: 49dab916-e03b-4f46-aea5-c2cde9fadc47
+      alt: 'Blue hoodie (front - cropped)'
+      title: ''
+      width: 860
+      height: 809
+  weight:
+    -
+      number: '52.000000'
+      unit: kg

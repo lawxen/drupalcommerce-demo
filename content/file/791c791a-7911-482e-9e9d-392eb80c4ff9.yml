@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 791c791a-7911-482e-9e9d-392eb80c4ff9
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Urban Threads) Knit Hat - Midnight Plum.jpg'
+  uri:
+    -
+      value: 'public://(Urban Threads) Knit Hat - Midnight Plum.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 167279
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

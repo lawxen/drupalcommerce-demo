@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: f85016b2-5443-4af3-93f4-143df4d82b86
+  bundle: simple
+  default_langcode: en
+  depends:
+    5c3a2232-1630-42cd-af47-7d39b7a9c34a: commerce_product
+    99249912-676c-46f2-a635-b98500015dc8: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 5c3a2232-1630-42cd-af47-7d39b7a9c34a
+  sku:
+    -
+      value: MVMT-WhBr-001
+  title:
+    -
+      value: 'Classic Watch - White Face, Brown Leather'
+  price:
+    -
+      number: '99.990000'
+      currency_code: USD
+      formatted: $99.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 99249912-676c-46f2-a635-b98500015dc8
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

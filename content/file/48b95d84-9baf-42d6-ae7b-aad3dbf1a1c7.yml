@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 48b95d84-9baf-42d6-ae7b-aad3dbf1a1c7
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Level) Headphones 1.jpg'
+  uri:
+    -
+      value: 'public://(Level) Headphones 1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 91134
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

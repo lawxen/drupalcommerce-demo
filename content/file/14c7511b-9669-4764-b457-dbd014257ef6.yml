@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 14c7511b-9669-4764-b457-dbd014257ef6
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Hiding Goat Print - 2.jpg'
+  uri:
+    -
+      value: 'public://Hiding Goat Print - 2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 75830
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

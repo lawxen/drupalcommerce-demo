@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 72cbf252-f4c0-48ab-81a1-92ae701574c0
+  bundle: simple
+  default_langcode: en
+  depends:
+    b1d045ea-f36b-4ae4-9ba2-5c1ae2ebd991: commerce_product
+    919234b0-8561-409b-9109-ef6c2d11ab7e: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: b1d045ea-f36b-4ae4-9ba2-5c1ae2ebd991
+  sku:
+    -
+      value: Polaroid-Pronot600
+  title:
+    -
+      value: 'Pronto600 Instant Camera'
+  price:
+    -
+      number: '99.990000'
+      currency_code: USD
+      formatted: $99.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 919234b0-8561-409b-9109-ef6c2d11ab7e
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

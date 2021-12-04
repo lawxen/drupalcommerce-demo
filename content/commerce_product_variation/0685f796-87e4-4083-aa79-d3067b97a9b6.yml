@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 0685f796-87e4-4083-aa79-d3067b97a9b6
+  bundle: simple
+  default_langcode: en
+  depends:
+    4019110c-c212-49e0-91f7-f4b1b336130d: commerce_product
+    472f6a91-caf9-43b5-af90-50c58aed3121: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 4019110c-c212-49e0-91f7-f4b1b336130d
+  sku:
+    -
+      value: Vinta-BP-001
+  title:
+    -
+      value: 'Canvas Backpack'
+  price:
+    -
+      number: '64.990000'
+      currency_code: USD
+      formatted: $64.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 472f6a91-caf9-43b5-af90-50c58aed3121
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

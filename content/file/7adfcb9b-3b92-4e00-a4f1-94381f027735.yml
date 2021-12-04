@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7adfcb9b-3b92-4e00-a4f1-94381f027735
+  default_langcode: en
+default:
+  filename:
+    -
+      value: hoodie-green-2.jpg
+  uri:
+    -
+      value: 'public://hoodie-green-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 134229
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

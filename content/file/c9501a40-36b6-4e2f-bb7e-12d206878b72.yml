@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c9501a40-36b6-4e2f-bb7e-12d206878b72
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Palms Print - 2.jpg'
+  uri:
+    -
+      value: 'public://Palms Print - 2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 142704
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

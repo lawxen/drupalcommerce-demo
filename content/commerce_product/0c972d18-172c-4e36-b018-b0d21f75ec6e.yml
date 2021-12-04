@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 0c972d18-172c-4e36-b018-b0d21f75ec6e
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    20c087dc-aaa7-44a3-9686-51f2dc03a86b: commerce_product_variation
+    cbacbf54-cacd-4cd9-8837-eb9de8cca699: taxonomy_term
+    a2023356-68c3-4d9d-b664-0cbf4faae6db: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: '24" x 36" Night City Print'
+  variations:
+    -
+      entity: 20c087dc-aaa7-44a3-9686-51f2dc03a86b
+  default_variation:
+    -
+      entity: 20c087dc-aaa7-44a3-9686-51f2dc03a86b
+  path:
+    -
+      alias: /product/24-x-36-night-city-print
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: cbacbf54-cacd-4cd9-8837-eb9de8cca699
+  field_product_categories:
+    -
+      entity: a2023356-68c3-4d9d-b664-0cbf4faae6db

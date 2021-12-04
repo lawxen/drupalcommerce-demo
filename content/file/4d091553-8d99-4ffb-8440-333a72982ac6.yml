@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4d091553-8d99-4ffb-8440-333a72982ac6
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Sonos) Wireless Speaker - 1.jpg'
+  uri:
+    -
+      value: 'public://(Sonos) Wireless Speaker - 1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 160691
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

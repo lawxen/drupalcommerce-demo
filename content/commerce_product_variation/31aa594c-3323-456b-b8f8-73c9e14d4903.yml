@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 31aa594c-3323-456b-b8f8-73c9e14d4903
+  bundle: simple
+  default_langcode: en
+  depends:
+    72e5f8e8-14a4-43ab-92e5-65b652d4f53e: commerce_product
+    63f03a41-8a5d-43cd-98da-57690efc131c: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 72e5f8e8-14a4-43ab-92e5-65b652d4f53e
+  sku:
+    -
+      value: WoodCo-BlueBowl-001
+  title:
+    -
+      value: 'Wooden Bowl in Blue'
+  price:
+    -
+      number: '24.990000'
+      currency_code: USD
+      formatted: $24.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 63f03a41-8a5d-43cd-98da-57690efc131c
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

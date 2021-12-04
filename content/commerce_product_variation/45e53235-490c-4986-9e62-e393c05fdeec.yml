@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 45e53235-490c-4986-9e62-e393c05fdeec
+  bundle: simple
+  default_langcode: en
+  depends:
+    10c2273e-ee3b-499b-bf76-de2f5c383d76: commerce_product
+    c8792f47-08c6-4d54-b950-ef737e627e3a: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 10c2273e-ee3b-499b-bf76-de2f5c383d76
+  sku:
+    -
+      value: Hers-RCG-001
+  title:
+    -
+      value: 'Rose Colored Glasses'
+  price:
+    -
+      number: '14.990000'
+      currency_code: USD
+      formatted: $14.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: c8792f47-08c6-4d54-b950-ef737e627e3a
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

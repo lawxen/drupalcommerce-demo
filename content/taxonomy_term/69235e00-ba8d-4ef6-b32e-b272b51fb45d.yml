@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 69235e00-ba8d-4ef6-b32e-b272b51fb45d
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    3fada410-028e-40a4-bec5-b175fc5372ac: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Office
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: 3fada410-028e-40a4-bec5-b175fc5372ac
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 3

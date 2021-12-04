@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 487718d0-66ef-4ef6-84cf-1811f6155e14
+  bundle: simple
+  default_langcode: en
+  depends:
+    af958570-3bcb-4253-ad2d-ed33803476b7: commerce_product
+    2041d804-9040-4ec5-93af-49c009c1f73a: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: af958570-3bcb-4253-ad2d-ed33803476b7
+  sku:
+    -
+      value: Flowers-001
+  title:
+    -
+      value: '24" x 36" Flowers Print'
+  price:
+    -
+      number: '41.000000'
+      currency_code: USD
+      formatted: $41.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 2041d804-9040-4ec5-93af-49c009c1f73a
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

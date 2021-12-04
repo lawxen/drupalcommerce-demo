@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 0a5ef974-cdcb-4f64-bf9a-668f8f2a1879
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    dc375f7c-655d-4e0c-8bd9-5ca427d6ce03: commerce_product_variation
+    cca97a23-5213-44d9-a9fc-0f0e4450aba7: taxonomy_term
+    f61537d9-c10b-4f93-81d7-f5f29d355c1e: taxonomy_term
+    41252968-6d82-4760-b0a5-8c2e15841f7a: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Eau De Parfum, 50 mL'
+  variations:
+    -
+      entity: dc375f7c-655d-4e0c-8bd9-5ca427d6ce03
+  default_variation:
+    -
+      entity: dc375f7c-655d-4e0c-8bd9-5ca427d6ce03
+  path:
+    -
+      alias: /product/eau-de-parfum-50-ml
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: cca97a23-5213-44d9-a9fc-0f0e4450aba7
+  field_product_categories:
+    -
+      entity: f61537d9-c10b-4f93-81d7-f5f29d355c1e
+    -
+      entity: 41252968-6d82-4760-b0a5-8c2e15841f7a

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c6c32afc-a96b-4d8c-af32-8ce1ffb5416a
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    d3e09fd0-c364-4c96-a41a-a2f14fda6a37: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Inflatables
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: d3e09fd0-c364-4c96-a41a-a2f14fda6a37
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 3

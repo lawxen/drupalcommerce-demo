@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 20c087dc-aaa7-44a3-9686-51f2dc03a86b
+  bundle: simple
+  default_langcode: en
+  depends:
+    0c972d18-172c-4e36-b018-b0d21f75ec6e: commerce_product
+    c3307af1-04e0-411a-a8f5-deec8053c383: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 0c972d18-172c-4e36-b018-b0d21f75ec6e
+  sku:
+    -
+      value: NightCity-24x36
+  title:
+    -
+      value: '24" x 36" Night City Print'
+  price:
+    -
+      number: '50.000000'
+      currency_code: USD
+      formatted: $50.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: c3307af1-04e0-411a-a8f5-deec8053c383
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

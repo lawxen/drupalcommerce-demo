@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 8fffbc90-ba5f-4e30-95b8-828a9c7659c3
+  bundle: simple
+  default_langcode: en
+  depends:
+    2db8a644-9d3f-4e97-8486-f368301d4398: commerce_product
+    a8793d80-b0d8-4d31-a0c2-c213c2cbc7f3: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 2db8a644-9d3f-4e97-8486-f368301d4398
+  sku:
+    -
+      value: LAB-WatermelonTote-001
+  title:
+    -
+      value: 'Watermelon Tote Bag'
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: a8793d80-b0d8-4d31-a0c2-c213c2cbc7f3
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

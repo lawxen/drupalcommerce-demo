@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: e2f94f16-03e0-47a8-bc0a-293e74c35818
+  bundle: simple
+  default_langcode: en
+  depends:
+    a596d3dc-4d36-4c76-8789-36f76d526ef0: commerce_product
+    c9501a40-36b6-4e2f-bb7e-12d206878b72: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: a596d3dc-4d36-4c76-8789-36f76d526ef0
+  sku:
+    -
+      value: Palms-24x36
+  title:
+    -
+      value: '24" x 36" Palms Print'
+  price:
+    -
+      number: '62.000000'
+      currency_code: USD
+      formatted: $62.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: c9501a40-36b6-4e2f-bb7e-12d206878b72
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

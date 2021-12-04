@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: b039920f-70ec-4352-9df7-9600f6f44684
+  bundle: clothing
+  default_langcode: en
+  depends:
+    802dfe56-8536-4287-a0fa-6bed3fd3a621: commerce_product
+    0b66adc7-be86-44cb-8221-f2d1f7175d7b: commerce_product_attribute_value
+    29c71bd2-b31b-4548-af50-d477f371a849: commerce_product_attribute_value
+    1d80ab76-b549-4a5e-b31b-a78c2baceece: file
+    7adfcb9b-3b92-4e00-a4f1-94381f027735: file
+    829ea14c-44b3-4401-9b40-a829b94418ef: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 802dfe56-8536-4287-a0fa-6bed3fd3a621
+  sku:
+    -
+      value: DCHOODIE-GRE-SM
+  title:
+    -
+      value: 'Drupal Commerce Hoodie - Green, Small'
+  price:
+    -
+      number: '52.000000'
+      currency_code: USD
+      formatted: $52.00
+  created:
+    -
+      value: 1637855022
+  attribute_color:
+    -
+      entity: 0b66adc7-be86-44cb-8221-f2d1f7175d7b
+  attribute_size:
+    -
+      entity: 29c71bd2-b31b-4548-af50-d477f371a849
+  field_images:
+    -
+      entity: 1d80ab76-b549-4a5e-b31b-a78c2baceece
+      alt: 'Green hoodie (front)'
+      title: ''
+      width: 1371
+      height: 1289
+    -
+      entity: 7adfcb9b-3b92-4e00-a4f1-94381f027735
+      alt: 'Green hoodie (front - alternative)'
+      title: ''
+      width: 1454
+      height: 1367
+    -
+      entity: 829ea14c-44b3-4401-9b40-a829b94418ef
+      alt: 'Green hoodie (front - cropped)'
+      title: ''
+      width: 859
+      height: 808
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

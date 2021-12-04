@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 607fceff-d752-4cdb-bea4-6d8814359059
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    d578e3b2-c4de-4de2-b2d1-71e916519f85: commerce_product_variation
+    64af5ba7-1fc1-457c-9ded-3cea952abcac: taxonomy_term
+    66079146-8ff2-41a5-b4e2-cad8ebedf95b: taxonomy_term
+    23238452-1f0f-44df-885b-037f8ecddd0b: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Colorplus 200 Film'
+  variations:
+    -
+      entity: d578e3b2-c4de-4de2-b2d1-71e916519f85
+  default_variation:
+    -
+      entity: d578e3b2-c4de-4de2-b2d1-71e916519f85
+  path:
+    -
+      alias: /product/colorplus-200-film
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 64af5ba7-1fc1-457c-9ded-3cea952abcac
+  field_product_categories:
+    -
+      entity: 66079146-8ff2-41a5-b4e2-cad8ebedf95b
+    -
+      entity: 23238452-1f0f-44df-885b-037f8ecddd0b

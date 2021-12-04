@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f4c6e253-eeca-4f2d-ba06-e5c7fb1347b5
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Herschel) Messenger Bag - Red & Blue.jpg'
+  uri:
+    -
+      value: 'public://(Herschel) Messenger Bag - Red & Blue.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 147786
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

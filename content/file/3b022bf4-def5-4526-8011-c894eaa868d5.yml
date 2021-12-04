@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3b022bf4-def5-4526-8011-c894eaa868d5
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Happy Camper) Adventure Fuel Mug.jpg'
+  uri:
+    -
+      value: 'public://(Happy Camper) Adventure Fuel Mug.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 125279
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

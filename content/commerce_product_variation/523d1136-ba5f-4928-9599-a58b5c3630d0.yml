@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 523d1136-ba5f-4928-9599-a58b5c3630d0
+  bundle: simple
+  default_langcode: en
+  depends:
+    8b9a7eed-ff2f-49f7-b19a-52bb7c632a8c: commerce_product
+    46b9cc91-4151-404c-92b8-db3d94f36c1c: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 8b9a7eed-ff2f-49f7-b19a-52bb7c632a8c
+  sku:
+    -
+      value: MM-GoldRim-001
+  title:
+    -
+      value: 'Gold Rim Sunnies'
+  price:
+    -
+      number: '14.990000'
+      currency_code: USD
+      formatted: $14.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 46b9cc91-4151-404c-92b8-db3d94f36c1c
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

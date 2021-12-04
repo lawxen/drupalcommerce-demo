@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4b576993-f3ce-43de-b415-0fcc20c6f580
+  bundle: simple
+  default_langcode: en
+  depends:
+    64cd33cb-6262-46e8-b1a9-0d30cc8e8292: commerce_product
+    edc39e71-2f17-4c78-919b-a0358a4f6751: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 64cd33cb-6262-46e8-b1a9-0d30cc8e8292
+  sku:
+    -
+      value: Fawkestrooper-36x24
+  title:
+    -
+      value: '36" x 24" Fawkestrooper Print'
+  price:
+    -
+      number: '50.000000'
+      currency_code: USD
+      formatted: $50.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: edc39e71-2f17-4c78-919b-a0358a4f6751
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9db8259e-9101-46ef-86b7-f384c714fb71
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Modern Furnishings) Teardrop Vase.jpg'
+  uri:
+    -
+      value: 'public://(Modern Furnishings) Teardrop Vase.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70812
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

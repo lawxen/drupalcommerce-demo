@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: da5835a1-db18-4535-84b4-c9c7b961c6ae
+  bundle: simple
+  default_langcode: en
+  depends:
+    d7855772-5a5b-432d-8cba-894d341e4b51: commerce_product
+    74c3da77-b86b-491d-89b1-753834d14583: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: d7855772-5a5b-432d-8cba-894d341e4b51
+  sku:
+    -
+      value: Hers-PlBP-001
+  title:
+    -
+      value: 'Pleather Backpack'
+  price:
+    -
+      number: '29.990000'
+      currency_code: USD
+      formatted: $29.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 74c3da77-b86b-491d-89b1-753834d14583
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

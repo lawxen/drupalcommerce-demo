@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: b1d045ea-f36b-4ae4-9ba2-5c1ae2ebd991
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    72cbf252-f4c0-48ab-81a1-92ae701574c0: commerce_product_variation
+    0c49bdec-02c0-4a77-a0c1-1d67f4625046: taxonomy_term
+    66079146-8ff2-41a5-b4e2-cad8ebedf95b: taxonomy_term
+    ce786350-a6c5-44b4-8800-13da5bae619b: taxonomy_term
+    23238452-1f0f-44df-885b-037f8ecddd0b: taxonomy_term
+    80a5403e-74d8-46fd-a487-9004889ea948: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Pronto600 Instant Camera'
+  variations:
+    -
+      entity: 72cbf252-f4c0-48ab-81a1-92ae701574c0
+  default_variation:
+    -
+      entity: 72cbf252-f4c0-48ab-81a1-92ae701574c0
+  path:
+    -
+      alias: /product/pronto600-instant-camera
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 0c49bdec-02c0-4a77-a0c1-1d67f4625046
+  field_product_categories:
+    -
+      entity: 66079146-8ff2-41a5-b4e2-cad8ebedf95b
+    -
+      entity: ce786350-a6c5-44b4-8800-13da5bae619b
+    -
+      entity: 23238452-1f0f-44df-885b-037f8ecddd0b
+  field_special_categories:
+    -
+      entity: 80a5403e-74d8-46fd-a487-9004889ea948

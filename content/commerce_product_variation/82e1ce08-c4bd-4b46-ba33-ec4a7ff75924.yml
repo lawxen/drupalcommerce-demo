@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 82e1ce08-c4bd-4b46-ba33-ec4a7ff75924
+  bundle: simple
+  default_langcode: en
+  depends:
+    ace433d7-609c-447f-a727-9b2e68ecc68d: commerce_product
+    882d36a6-e63b-413a-9f6e-4d237bb004f4: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: ace433d7-609c-447f-a727-9b2e68ecc68d
+  sku:
+    -
+      value: Dior-MDEDT-50
+  title:
+    -
+      value: 'Miss Dior Eau De Toilette, 50 mL'
+  price:
+    -
+      number: '150.000000'
+      currency_code: USD
+      formatted: $150.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 882d36a6-e63b-413a-9f6e-4d237bb004f4
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

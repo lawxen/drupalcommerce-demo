@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b298a0ce-4074-42ae-a58b-8deff18981e2
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Modern Furnishings) White & Wood Chair - 1.jpg'
+  uri:
+    -
+      value: 'public://(Modern Furnishings) White & Wood Chair - 1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 140052
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

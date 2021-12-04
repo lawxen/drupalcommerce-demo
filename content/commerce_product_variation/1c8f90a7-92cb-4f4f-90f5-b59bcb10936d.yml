@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 1c8f90a7-92cb-4f4f-90f5-b59bcb10936d
+  bundle: simple
+  default_langcode: en
+  depends:
+    fc297541-fa20-472a-bc8d-45c6c0b19a93: commerce_product
+    92b59065-ec22-48a0-abd1-19911805cb64: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: fc297541-fa20-472a-bc8d-45c6c0b19a93
+  sku:
+    -
+      value: PC-WriteIdeas-NB-001
+  title:
+    -
+      value: 'Write Ideas 5" x 8" Notebook'
+  price:
+    -
+      number: '15.000000'
+      currency_code: USD
+      formatted: $15.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 92b59065-ec22-48a0-abd1-19911805cb64
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

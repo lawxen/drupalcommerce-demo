@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4f643505-432c-460e-81ba-9f7b790fe4f1
+  bundle: simple
+  default_langcode: en
+  depends:
+    4dcd6da1-a60c-49a2-be9c-00c8d60112b3: commerce_product
+    c9c1214f-48b2-4b6a-b564-c1caa15c6b91: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 4dcd6da1-a60c-49a2-be9c-00c8d60112b3
+  sku:
+    -
+      value: Jrink-Green1
+  title:
+    -
+      value: 'Cold Pressed Juice'
+  price:
+    -
+      number: '10.000000'
+      currency_code: USD
+      formatted: $10.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: c9c1214f-48b2-4b6a-b564-c1caa15c6b91
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

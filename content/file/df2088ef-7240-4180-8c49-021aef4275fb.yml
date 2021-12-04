@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: df2088ef-7240-4180-8c49-021aef4275fb
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Urban Threads) Knit Hat - Green.jpg'
+  uri:
+    -
+      value: 'public://(Urban Threads) Knit Hat - Green.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 188236
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

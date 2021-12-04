@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c3f0cb56-1b78-429d-a310-f40ae3915953
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    1cdb9879-80aa-4534-99f3-c3a09b851edd: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Toys/Novelties
+  weight:
+    -
+      value: 5
+  parent:
+    -
+      entity: 1cdb9879-80aa-4534-99f3-c3a09b851edd
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 2

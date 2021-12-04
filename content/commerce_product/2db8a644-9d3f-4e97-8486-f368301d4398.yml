@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 2db8a644-9d3f-4e97-8486-f368301d4398
+  bundle: simple
+  default_langcode: en
+  depends:
+    9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3: commerce_store
+    8fffbc90-ba5f-4e30-95b8-828a9c7659c3: commerce_product_variation
+    7e049019-f8bb-4ff7-9751-4b5700a7329d: taxonomy_term
+    f61537d9-c10b-4f93-81d7-f5f29d355c1e: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 9da2ea3b-ca9d-4a22-b60e-c0d526db0bb3
+  title:
+    -
+      value: 'Watermelon Tote Bag'
+  variations:
+    -
+      entity: 8fffbc90-ba5f-4e30-95b8-828a9c7659c3
+  default_variation:
+    -
+      entity: 8fffbc90-ba5f-4e30-95b8-828a9c7659c3
+  path:
+    -
+      alias: /product/watermelon-tote-bag
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1637855022
+  body:
+    -
+      value: "<p>Sustainable hot chicken street art stumptown tousled pour-over mixtape. Listicle raclette polaroid hashtag. Marfa prism hot chicken aesthetic banh mi messenger bag. Kitsch put a bird on it 3 wolf moon, flannel air plant palo santo direct trade cred. Jianbing art party flexitarian gastropub ethical gluten-free tumblr master cleanse locavore, helvetica health goth austin fingerstache prism pickled. Franzen sartorial next level, pug heirloom locavore deep v tilde chicharrones. Roof party cloud bread tumeric taiyaki farm-to-table flexitarian, butcher cold-pressed.</p>\r\n\r\n<p>Tofu distillery poke chicharrones, poutine austin shabby chic cronut kogi XOXO. Swag seitan VHS af cray, health goth retro activated charcoal flannel tote bag squid heirloom. Kitsch yuccie la croix microdosing, bespoke retro hexagon small batch distillery photo booth lomo. Fingerstache vice banh mi mumblecore master cleanse cornhole.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_brand:
+    -
+      entity: 7e049019-f8bb-4ff7-9751-4b5700a7329d
+  field_product_categories:
+    -
+      entity: f61537d9-c10b-4f93-81d7-f5f29d355c1e

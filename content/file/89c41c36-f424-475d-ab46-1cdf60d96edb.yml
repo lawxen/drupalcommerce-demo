@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 89c41c36-f424-475d-ab46-1cdf60d96edb
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Wood & Co.) Basic Bar Stool.jpg'
+  uri:
+    -
+      value: 'public://(Wood & Co.) Basic Bar Stool.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 56817
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

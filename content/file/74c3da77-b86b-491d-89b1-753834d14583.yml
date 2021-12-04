@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 74c3da77-b86b-491d-89b1-753834d14583
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Hers) Pleather Backback.jpg'
+  uri:
+    -
+      value: 'public://(Hers) Pleather Backback.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106345
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

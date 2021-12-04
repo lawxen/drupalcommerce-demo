@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 831d5c36-867a-40b7-a54a-ac19789f7e06
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Favorit) Vintage Typewriter.jpg'
+  uri:
+    -
+      value: 'public://(Favorit) Vintage Typewriter.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 107099
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

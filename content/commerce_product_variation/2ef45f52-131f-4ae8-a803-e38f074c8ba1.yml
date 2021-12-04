@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 2ef45f52-131f-4ae8-a803-e38f074c8ba1
+  bundle: simple
+  default_langcode: en
+  depends:
+    f8979cf3-072b-4c8f-8e6b-53cb38bf1ab0: commerce_product
+    03b5a1f5-e52d-454a-995c-90b37ca50b10: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: f8979cf3-072b-4c8f-8e6b-53cb38bf1ab0
+  sku:
+    -
+      value: GoPro-HS5
+  title:
+    -
+      value: 'Hero Session5'
+  price:
+    -
+      number: '250.000000'
+      currency_code: USD
+      formatted: $250.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 03b5a1f5-e52d-454a-995c-90b37ca50b10
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

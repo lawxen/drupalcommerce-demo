@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 46b9cc91-4151-404c-92b8-db3d94f36c1c
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Modern Man) Gold Rim Sunnies.jpg'
+  uri:
+    -
+      value: 'public://(Modern Man) Gold Rim Sunnies.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 53485
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

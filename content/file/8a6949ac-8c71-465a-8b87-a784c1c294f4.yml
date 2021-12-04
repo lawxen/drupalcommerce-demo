@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8a6949ac-8c71-465a-8b87-a784c1c294f4
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Hot Air Balloon Print - 2.jpg'
+  uri:
+    -
+      value: 'public://Hot Air Balloon Print - 2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 94156
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

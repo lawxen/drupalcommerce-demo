@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: bbe50b96-5781-46d0-82cf-f3f08e3964bb
+  bundle: simple
+  default_langcode: en
+  depends:
+    df9cf94e-5148-49ad-a5ea-98b3a3549d9f: commerce_product
+    4d091553-8d99-4ffb-8440-333a72982ac6: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: df9cf94e-5148-49ad-a5ea-98b3a3549d9f
+  sku:
+    -
+      value: Sonos-WS001
+  title:
+    -
+      value: 'Wireless Speaker'
+  price:
+    -
+      number: '349.990000'
+      currency_code: USD
+      formatted: $349.99
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 4d091553-8d99-4ffb-8440-333a72982ac6
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

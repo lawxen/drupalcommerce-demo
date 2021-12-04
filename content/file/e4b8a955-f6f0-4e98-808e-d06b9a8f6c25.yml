@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e4b8a955-f6f0-4e98-808e-d06b9a8f6c25
+  default_langcode: en
+default:
+  filename:
+    -
+      value: 'Foggy Forest Print - 2.jpg'
+  uri:
+    -
+      value: 'public://Foggy Forest Print - 2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80887
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

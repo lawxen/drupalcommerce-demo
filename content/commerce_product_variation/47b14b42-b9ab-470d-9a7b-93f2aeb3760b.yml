@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 47b14b42-b9ab-470d-9a7b-93f2aeb3760b
+  bundle: simple
+  default_langcode: en
+  depends:
+    d66893f6-a681-49d6-bd9a-1910b5f1f13d: commerce_product
+    791c791a-7911-482e-9e9d-392eb80c4ff9: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: d66893f6-a681-49d6-bd9a-1910b5f1f13d
+  sku:
+    -
+      value: UT-KnitHat-MNPlum
+  title:
+    -
+      value: 'Knit Hat in Midnight Plum'
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 791c791a-7911-482e-9e9d-392eb80c4ff9
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

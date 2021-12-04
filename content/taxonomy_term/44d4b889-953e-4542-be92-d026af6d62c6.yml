@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 44d4b889-953e-4542-be92-d026af6d62c6
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    66079146-8ff2-41a5-b4e2-cad8ebedf95b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Audio
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 66079146-8ff2-41a5-b4e2-cad8ebedf95b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 2

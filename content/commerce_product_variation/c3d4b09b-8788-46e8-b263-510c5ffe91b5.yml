@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: c3d4b09b-8788-46e8-b263-510c5ffe91b5
+  bundle: simple
+  default_langcode: en
+  depends:
+    aef79b83-0fe1-4995-9563-889651c12a03: commerce_product
+    14c7511b-9669-4764-b457-dbd014257ef6: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: aef79b83-0fe1-4995-9563-889651c12a03
+  sku:
+    -
+      value: HidingGoat-24x30
+  title:
+    -
+      value: '24" x 30" Hiding Goat Print'
+  price:
+    -
+      number: '38.000000'
+      currency_code: USD
+      formatted: $38.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 14c7511b-9669-4764-b457-dbd014257ef6
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d3e09fd0-c364-4c96-a41a-a2f14fda6a37
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    1cdb9879-80aa-4534-99f3-c3a09b851edd: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Beach
+  weight:
+    -
+      value: 6
+  parent:
+    -
+      entity: 1cdb9879-80aa-4534-99f3-c3a09b851edd
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  depth_level:
+    -
+      value: 2

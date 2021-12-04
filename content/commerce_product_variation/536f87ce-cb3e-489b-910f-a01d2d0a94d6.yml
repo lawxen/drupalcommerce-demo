@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 536f87ce-cb3e-489b-910f-a01d2d0a94d6
+  bundle: simple
+  default_langcode: en
+  depends:
+    57a850f6-7299-461e-84df-6e61368d57d6: commerce_product
+    9e9e3003-8599-4faa-bbbc-c57925ef75fa: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 57a850f6-7299-461e-84df-6e61368d57d6
+  sku:
+    -
+      value: NC-Inc-5pk-Brushes
+  title:
+    -
+      value: 'Makeup Brush Set'
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 9e9e3003-8599-4faa-bbbc-c57925ef75fa
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

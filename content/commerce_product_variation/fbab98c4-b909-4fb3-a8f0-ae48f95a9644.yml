@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: fbab98c4-b909-4fb3-a8f0-ae48f95a9644
+  bundle: simple
+  default_langcode: en
+  depends:
+    1cb539a6-1908-4a5a-82db-1d0d7e2c9f4e: commerce_product
+    12029e75-b954-4d7e-87c0-8b4582eff09f: file
+default:
+  uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 1cb539a6-1908-4a5a-82db-1d0d7e2c9f4e
+  sku:
+    -
+      value: Splatter-24x36
+  title:
+    -
+      value: '24" x 36" Splatter Print'
+  price:
+    -
+      number: '27.000000'
+      currency_code: USD
+      formatted: $27.00
+  created:
+    -
+      value: 1637855022
+  field_images:
+    -
+      entity: 12029e75-b954-4d7e-87c0-8b4582eff09f
+      alt: ''
+      title: ''
+      width: 670
+      height: 630
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

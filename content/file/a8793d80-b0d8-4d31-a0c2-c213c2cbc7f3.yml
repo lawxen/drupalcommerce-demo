@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a8793d80-b0d8-4d31-a0c2-c213c2cbc7f3
+  default_langcode: en
+default:
+  filename:
+    -
+      value: '(Life''s a Beach) Watermelon Tote Bag.jpg'
+  uri:
+    -
+      value: 'public://(Life''s a Beach) Watermelon Tote Bag.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 171945
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637855022

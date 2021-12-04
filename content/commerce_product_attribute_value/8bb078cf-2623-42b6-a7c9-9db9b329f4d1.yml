@@ -1,0 +1,16 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 8bb078cf-2623-42b6-a7c9-9db9b329f4d1
+  bundle: size
+  default_langcode: en
+default:
+  name:
+    -
+      value: Medium
+  weight:
+    -
+      value: 0
+  created:
+    -
+      value: 1637855022
